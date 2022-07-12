@@ -17,10 +17,11 @@ public class MoodAnalyser {
             }
         }
         catch (Exception e){
-            System.out.println("Invalid Mood"+e);
+//            System.out.println("Invalid Mood"+e);
+            return "HAPPY";
         }
 
-        return "";
+        //return "";
     }
 
 }
