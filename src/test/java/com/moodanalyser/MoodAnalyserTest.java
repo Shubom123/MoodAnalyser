@@ -12,7 +12,7 @@ public class MoodAnalyserTest {
     }
     @Test
     public void giveMessage_WhenReturnHappy() throws MoodAnalyserException{
-        MoodAnalyser moodAnalyser=new MoodAnalyser(null);
+        MoodAnalyser moodAnalyser=new MoodAnalyser("");
         String result = moodAnalyser.analyzeMood();
         Assertions.assertEquals("HAPPY",result);
     }
